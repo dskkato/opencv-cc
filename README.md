@@ -32,3 +32,7 @@ Please note that depending FFI means language supports (both C++ and Rust) are s
 * `OPENCV_INCLUDE_PATHS` Path to OpenCV's headers.
 
 These name convention came from `opencv-rust` but only one path or lib can be set for each, so that what you can use is `opencv_world` configuration. In order to suplly multiple files/paths, see `opencv-rust` build.rs script.
+
+## License
+
+MIT
