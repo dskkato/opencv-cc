@@ -2,3 +2,4 @@
 /out/*.png
 
 /.vscode/c_cpp_properties.json
+/opencv_world451.dll

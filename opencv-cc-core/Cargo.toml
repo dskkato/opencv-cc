@@ -1,0 +1,9 @@
+[package]
+name = "opencv-cc-core"
+version = "0.1.0"
+authors = ["dskkato <kato.daisuke429@gmail.com>"]
+edition = "2018"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.53.1"

@@ -1,0 +1,10 @@
+[package]
+name = "opencv-cc-main"
+version = "0.1.0"
+authors = ["dskkato <kato.daisuke429@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.23.12"
+num-complex = "0.3.1"
+opencv-cc-core =  { path = "../opencv-cc-core" }

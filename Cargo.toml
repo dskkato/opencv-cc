@@ -1,15 +1,5 @@
-[package]
-name = "opencv-cc"
-version = "0.1.0"
-authors = ["dskkato <kato.daisuke429@gmail.com>"]
-edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-image = "0.23.12"
-num-complex = "0.3.1"
-
-[build-dependencies]
-cc = "1.0"
-bindgen = "0.53.1"
+[workspace]
+members = [
+  "opencv-cc-core",
+  "opencv-cc-main",
+]
