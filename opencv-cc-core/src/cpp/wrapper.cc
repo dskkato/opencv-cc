@@ -1,10 +1,5 @@
 #include "wrapper.h"
-#include "opencv2/imgproc.hpp"
-#include "opencv2/imgcodecs.hpp"
-
-#ifdef __cplusplus
-extern "C" {
-#endif
+#include "opencv2/opencv.hpp"
 
 void write_as_gray(const char* fname, const int rows, const int cols, unsigned char*buf)
 {
@@ -19,7 +14,3 @@ void write_as_rgb(const char* fname, const int rows, const int cols, unsigned ch
     cv::Mat src(rows, cols, CV_8UC3, buf);
     cv::imwrite(fname, src);
 }
-
-#ifdef __cplusplus
-}
-#endif
